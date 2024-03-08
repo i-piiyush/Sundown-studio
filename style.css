@@ -726,6 +726,7 @@ h4 {
   
 
 }
+  
 .menu h3{
   font-size: 24px;
   font-weight: 100;
@@ -817,6 +818,10 @@ nav img {
   }
 
   @media (max-width: 425px) {
+
+     body{
+      overflow-x: hidden;
+    }
     .main-content {
       height: 29vh;
       display: flex;
