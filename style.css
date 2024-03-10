@@ -705,7 +705,7 @@ h4 {
   height: 60vh;
   background-color: #efeae3;
   position: fixed;
-  top: -100%;
+  top: -150%;
   transition: all 1.2s ease-in-out;
   z-index: 100;
   border-bottom-left-radius: 45px;
