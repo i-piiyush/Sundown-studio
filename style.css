@@ -19,6 +19,7 @@
   font-family: neu;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
@@ -74,7 +75,7 @@ nav img {
 .page-1 {
   background-color: #efeae3;
   min-height: 100vh;
-  width: 96%;
+  width: 100%;
   padding: 0 2vw;
 }
 .main-content {
@@ -721,6 +722,13 @@ h4 {
   
 }
 @media (max-width: 768px) {
+     html,body{
+      overflow-x: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
 .menu{
   display: block;
   
@@ -800,7 +808,7 @@ nav img {
 } */
 
   .swiper-slide p {
-    font-size: 2vw;
+    font-size: 1.3vw;
   }
   .swiper-slide img {
     width: auto;
@@ -819,8 +827,12 @@ nav img {
 
   @media (max-width: 425px) {
 
-     body{
+     html,body{
       overflow-x: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
     }
     .main-content {
       height: 29vh;
